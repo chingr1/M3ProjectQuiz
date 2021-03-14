@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Raiku"
+        android:textSize="80sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etWelcome"
+        android:layout_width="match_parent"
+        android:text="Module 2 Individual Project"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="250dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bContinue"
+        android:text="Continue"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
